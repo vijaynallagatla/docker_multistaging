@@ -1,0 +1,6 @@
+{
+    "xunitReporterOptions": {
+      "output": "test-result.xml"
+    }
+  }
+  

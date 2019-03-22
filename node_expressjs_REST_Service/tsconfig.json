@@ -1,0 +1,14 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "removeComments": false
+    },
+    "include": ["src"],
+    "exclude": ["test", "node_modules"]
+  }
+  
