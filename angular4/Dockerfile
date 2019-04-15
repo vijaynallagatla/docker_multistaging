@@ -1,7 +1,7 @@
 ####################################################################################################################################
 # Multitaging -> Build and Test Stage
 ####################################################################################################################################
-FROM manu682/node_frontend_stable_chrome as builder
+FROM FROM nginx:alpine as builder
 
 # Download the latest Chrome
 RUN apt-get update && apt-get --only-upgrade install google-chrome-stable
